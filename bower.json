@@ -1,5 +1,5 @@
 {
-  "name": "resolve.next-state",
+  "name": "next-state",
   "version": "1.0.0",
   "description": "Module that handles state redirects after a permission or state/transiotion is rejected",
   "main": [
