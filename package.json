@@ -1,0 +1,32 @@
+{
+  "name": "next-state",
+  "version": "1.0.0",
+  "description": "Configurable mOdule that remembers the nextState on each transition. When a transition is intercepted(we are redirected to a state that is configured as not to be remembered) for some reason this module ensures to redirect the user to the previous intended state",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstanev/next-state.git"
+  },
+  "keywords": [
+    "angular",
+    "angular-permission",
+    "ui-router"
+  ],
+  "author": "Radina Staneva",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/hstanev/next-state/issues"
+  },
+  "homepage": "https://github.com/hstanev/next-state#readme",
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ng-annotate": "^3.0.0"
+  }
+}

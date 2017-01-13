@@ -1,0 +1,25 @@
+{
+  "name": "resolve.next-state",
+  "description": "Module that handles state redirects after a permission or state/transiotion is rejected",
+  "main": "",
+  "authors": [
+    "Radina Staneva"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "src/*.*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    ".gitignore",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular-ui-router": "0.3.1",
+    "angular-permission": "4.1.2"
+  }
+}
