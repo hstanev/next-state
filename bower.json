@@ -1,7 +1,9 @@
 {
   "name": "resolve.next-state",
   "description": "Module that handles state redirects after a permission or state/transiotion is rejected",
-  "main": "",
+  "main": [
+    "dist/next-state.js"
+  ],
   "authors": [
     "Radina Staneva"
   ],
