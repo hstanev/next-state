@@ -1,16 +1,16 @@
 {
-  "name": "next-state",
+  "name": "resolve.next-state",
   "version": "1.0.0",
   "description": "Module that handles state redirects after a permission or state/transiotion is rejected",
   "main": [
-    "dist/next-state.js"
+    "./dist/next-state.js"
   ],
   "authors": [
     "Radina Staneva"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hstanev/next-state.git"
+    "url": "git://github.com/hstanev/next-state.git"
   },
   "license": "MIT",
   "homepage": "",
@@ -25,6 +25,7 @@
     "package.json"
   ],
   "dependencies": {
+    "angular": "1.5.8",
     "angular-ui-router": "0.3.1",
     "angular-permission": "4.1.2"
   }
