@@ -17,7 +17,6 @@
   "private": true,
   "ignore": [
     "src/*.*",
-    "**/.*",
     "node_modules",
     "bower_components",
     "vendor",
