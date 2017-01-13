@@ -36,16 +36,16 @@ angular.module('myApp', ['resolve.next-state', ...])
 
 ```js
 .config(function(nextStateProvider, defaultHomeRedirect) {
-        nextStateProvider.setExcludedStates([
-            'login'
-        ]);
+    nextStateProvider.setExcludedStates([
+        'login'
+    ]);
 
-        nextStateProvider.setRedirectEvents([
-            'login_successful',
-        ]);
-        
-        // Here defaultHomeRedirect is used as constant defined globally, but if you want feel free to mention a state name directly
-        nextStateProvider.setDefaultHomeRedirect(defaultHomeRedirect);
+    nextStateProvider.setRedirectEvents([
+        'login_successful',
+    ]);
+
+    // Here defaultHomeRedirect is used as constant defined globally, but if you want feel free to mention a state name directly
+    nextStateProvider.setDefaultHomeRedirect(defaultHomeRedirect);
 });
 ```
 
