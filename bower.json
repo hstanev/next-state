@@ -22,6 +22,8 @@
     "vendor",
     ".gitignore",
     "Gruntfile.js",
+    "bower.json",
+    ".jshintrc",
     "package.json"
   ],
   "dependencies": {
