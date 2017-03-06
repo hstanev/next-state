@@ -1,0 +1,11 @@
+[Unit]
+Description=Private bower instance
+
+[Service]
+WorkingDirectory=/srv/private-bower
+ExecStart=/bin/sh -c 'private-bower --config /srv/private-bower/bowerConfig.json >> /var/log/private-bower.log 2>&1'
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

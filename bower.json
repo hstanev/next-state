@@ -24,7 +24,8 @@
     "Gruntfile.js",
     "bower.json",
     ".jshintrc",
-    "package.json"
+    "package.json",
+    "private-bower.service"
   ],
   "dependencies": {
     "angular": "1.5.8",
